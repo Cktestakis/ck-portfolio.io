@@ -63,20 +63,25 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <span className="tagline">Welcome!</span>
                   <h1>
                     {`Hi! I'm Cody`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
+                      data-rotate='[ "Web Developer", "Web Designer", "Software Developer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Full Stack Developer with strong background in C#, ASP .NET, SQL, React, CSS3, and JavaScript. Proven track record in designing and implementing robust solutions for diverse projects. Recognized for keen problem-solving skills, client-focused approach, and successful collaboration within multi-project environments.
-                    </p>
+                    Full Stack Developer with strong background in C#, ASP .NET,
+                    SQL, React, CSS3, and JavaScript. Proven track record in
+                    designing and implementing robust solutions for diverse
+                    projects. Recognized for keen problem-solving skills,
+                    client-focused approach, and successful collaboration within
+                    multi-project environments.
+                  </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
