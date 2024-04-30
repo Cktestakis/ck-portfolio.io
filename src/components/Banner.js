@@ -11,18 +11,19 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["Web Developer", "Web Designer", "Software Developer"];
   const period = 2000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
     }, delta);
-
+  
     return () => {
       clearInterval(ticker);
     };
-  }, [text]);
+  }, [delta, text]);
+  
 
   const tick = () => {
     let i = loopNum % toRotate.length;
