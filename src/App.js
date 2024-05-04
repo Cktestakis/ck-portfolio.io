@@ -1,4 +1,4 @@
-//import cody from './cody.svg';
+//import cody from './cody.svg'; Receiving error with this line of code. Will look into it.
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/NavBar";
