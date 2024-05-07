@@ -16,12 +16,12 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Cinettica Fashion and Art Film Festival",
+      description: <a href="https://www.cinetticafashionfestival.com/">Cinettica Website</a>,
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Project Coming Soon",
       description: "Design & Development",
       imgUrl: projImg3,
     },
@@ -80,10 +80,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Self Projects Coming Soon!</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Fun Projects Coming Soon!</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
