@@ -477,8 +477,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  background: linear-gradient(90.21deg, #da7305 -5.91%, #130645 111.58%);
+  padding: 60px 0 100px 0;
 }
 .contact img {
   width: 92%;
