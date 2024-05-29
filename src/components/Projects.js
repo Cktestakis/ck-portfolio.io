@@ -79,9 +79,9 @@ export const Projects = () => {
                       <Nav.Item>
                         <Nav.Link eventKey="second">Personal Projects</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      {/* <Nav.Item>
                         <Nav.Link eventKey="third">Fun Projects</Nav.Link>
-                      </Nav.Item>
+                      </Nav.Item> */}
                     </Nav>
                     <Tab.Content
                       id="slideInUp"
